@@ -1,0 +1,17 @@
+{
+  "name": "splwallet/merchant-wallet-platform",
+  "type": "project",
+  "description": "Laravel architecture blueprint for multi-role auth and merchant dual-wallet (payin/payout).",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0",
+    "laravel/sanctum": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  }
+}
